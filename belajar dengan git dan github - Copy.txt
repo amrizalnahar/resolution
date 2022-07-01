@@ -1,0 +1,47 @@
+push : upload di github
+pull : download dari github
+
+membuat repo di github, reponya di clone di repo lokal
+
+repo : folder project
+commit : rekaman/snapshot dari repo
+hash : penanda unik pada sebuah commit
+checkout : berpindah ke sebuah commit
+branch : cabang commit
+merge : menggabungkan dua / lebih branch
+remote : sumber yang memiliki remote
+clone : mengambil repo
+push : mengirim commit
+pull : mengambil commit
+
+VSC
+U : Untracked, dipindahkan ke staging area
+M : Modify
+
+git init (untuk menginisiasi repository)
+git status (melihat status file yang belum di add)
+git add .
+git commit -m "menambahkan ..." (pesan)
+
+kalau status sudah M maka bisa langsung perintah
+git commit -am "menambahkan .." (menambahkan dan memberikan komen)
+
+git clone https://github.com/amrizalnahar/resolution.git
+git clone
+
+alias graph="git log --all --decorate --oneline --graph"
+graph
+
+…or push an existing repository from the command line
+git remote add <origin> https:...
+git branch -M main
+git push -u <origin> main
+
+git config --list (menampilkan username dan email yang sedang dipakai)
+git config --global user.name "..."
+git config --global user.mail "..."
+git config --local
+
+
+git fetch (mengetahui file yang diedit di remote)
+git pull 
