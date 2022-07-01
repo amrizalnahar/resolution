@@ -1,4 +1,3 @@
-Kode belajar git dan github di WPU UNPASS
 push : upload di github
 pull : download dari github
 
@@ -33,12 +32,16 @@ git clone
 alias graph="git log --all --decorate --oneline --graph"
 graph
 
-git push (ke repo github)
+…or push an existing repository from the command line
+git remote add <origin> https:...
+git branch -M main
+git push -u <origin> main
 
 git config --list (menampilkan username dan email yang sedang dipakai)
 git config --global user.name "..."
 git config --global user.mail "..."
 git config --local
+
 
 git fetch (mengetahui file yang diedit di remote)
 git pull 
