@@ -1,3 +1,4 @@
+Kode belajar git dan github di WPU UNPASS
 push : upload di github
 pull : download dari github
 
