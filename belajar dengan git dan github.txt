@@ -39,4 +39,4 @@ git config --global user.name "..."
 git config --global user.mail "..."
 git config --local
 
-#semoga ini bisa menambah ilmu saya dibidang sistem informasi dan informatika
+
