@@ -39,4 +39,4 @@ git config --global user.name "..."
 git config --global user.mail "..."
 git config --local
 
-
+git fetch (mengetahui file yang diedit di remote)
